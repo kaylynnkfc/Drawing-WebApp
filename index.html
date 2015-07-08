@@ -1,1 +1,44 @@
-hello world
+<html>
+	<head>
+		<script src="http://cloud.github.com/downloads/processing-js/processing-js/processing-1.4.1.min.js"></script>
+		<script type="text/processing" data-processing-target="mycanvas">
+            
+            
+            
+            
+			void setup()
+            {
+                noStroke(); 
+                size(1250,580);
+                background(255); 
+                //test
+                
+			}
+
+            
+			void draw(){ 
+                
+                var size1 = random(5,15); 
+                    var size2 = random(5,15); 
+
+                    var one = random(100,255); 
+                    var two = random(255); 
+                    var three = random(255); 
+                    var offset1 = random(-5,5); 
+                    var offset2 = random(-5,5);
+                
+                if(mousePressed===true) {
+                     
+
+                    fill(one, two, three);
+                    ellipse(mouseX+offset1,mouseY+offset2,size1,size2); 
+                }
+			}
+
+
+		</script>
+	</head>
+	<body>
+		<canvas id="mycanvas"></canvas>
+	</body>
+</html>

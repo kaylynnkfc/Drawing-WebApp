@@ -16,12 +16,17 @@
                 noStroke(); 
                  size(1250,580);
                 background(255); 
-                //test
+                
+                PFont fontA = loadFont("calibri");
+			  textFont(fontA, 20); 
                 
 			}
 
             
 			void draw(){ 
+                
+                fill(0); 
+                text("Click and drag to draw", 10,20); 
                 
                 var size1 = random(5,15); 
                     var size2 = random(5,15); 
@@ -57,6 +62,7 @@
 </script>
 	</head>
 	<body>
+        
 		<canvas id="mycanvas"></canvas>
 	</body>
 </html>

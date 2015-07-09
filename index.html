@@ -13,6 +13,7 @@
             
 			void setup()
             {
+                var text = true; 
                 noStroke(); 
                  size(1250,580);
                 background(255); 
@@ -25,8 +26,11 @@
             
 			void draw(){ 
                 
-                fill(0); 
-                text("Click and drag to draw", 10,20); 
+                if(text===true) {
+                    fill(0); 
+                    text("Click and drag to draw", 10,20); 
+                }
+                
                 
                 var size1 = random(5,15); 
                     var size2 = random(5,15); 
@@ -38,7 +42,7 @@
                     var offset2 = random(-5,5);
                 
                 if(mousePressed===true) {
-                     
+                     text=false;     
 
                     fill(one, two, three);
                     ellipse(mouseX+offset1,mouseY+offset2,size1,size2); 

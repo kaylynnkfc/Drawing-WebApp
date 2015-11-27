@@ -1,3 +1,5 @@
-# Drawing-WebApp
+# Drawing Web App
 
-Main branch is gh-pages, master is not kept updated. 
+
+ProcessingJS based drawing app. View here: http://silentttone.github.io/Drawing-WebApp/ <br>
+Note: Main branch is gh-pages, master is not kept updated. 

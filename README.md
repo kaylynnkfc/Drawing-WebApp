@@ -1,5 +1,8 @@
 # Drawing Web App
 
 
-ProcessingJS based drawing app. View here: http://silentttone.github.io/Drawing-WebApp/ <br>
-Note: Main branch is gh-pages, master is not kept updated. 
+Make with processingJS. Click and drag to draw randomized ellipses. Press "r" to reset the screen, press "s" (with popups disabled) to open the drawing as an image that you can then save.
+
+Main branch is gh-pages.
+
+URL: http://silentttone.github.io/Drawing-WebApp/
